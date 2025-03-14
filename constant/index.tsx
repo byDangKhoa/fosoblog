@@ -1,0 +1,36 @@
+export const IMAGES = {
+  BANNER: '/assets/images/banner.png',
+  BANNER_RIGHT: '/assets/images/banner-right.png',
+  CALENDAR: '/assets/images/calendar.png',
+  HAND: '/assets/images/hand.png',
+  BLOG: '/assets/images/blog.png',
+  BLOG_DETAIL: '/assets/images/blog.png',
+  SEARCH: '/assets/images/search.png',
+  VN_FLAG: '/assets/images/vn-flag.png',
+  FAVICON: '/favicon.png',
+  FULL_LOGO: '/assets/images/logo.png',
+  PIC1: '/assets/images/pic1.png',
+  PIC2: '/assets/images/pic2.png',
+  PIC3: '/assets/images/pic3.png',
+  PIC4: '/assets/images/pic4.png',
+  PIC5: '/assets/images/pic5.png',
+}
+export const ICONS = {
+  ZALO: '/assets/icons/zalo.png',
+  TWITTER: '/assets/icons/twitter.png',
+  REDDIT: '/assets/icons/reddit.png',
+  FACEBOOK: '/assets/icons/facebook.png',
+  LINKEDIN: '/assets/icons/linkedin.png',
+  LOGO: '/assets/icons/logo.png',
+  LIKE: '/assets/icons/like.png',
+  LOVE: '/assets/icons/love.png',
+  HAPPY: '/assets/icons/happy.png',
+  WOW: '/assets/icons/wow.png',
+  YAWN: '/assets/icons/yawn.png',
+  ANGRY: '/assets/icons/angry.png',
+}
+export const ROUTES = {
+  HOME: '/',
+  BLOG: '/blog',
+  BLOG_DETAIL: (id: string) => `/blog/${id}`,
+}
